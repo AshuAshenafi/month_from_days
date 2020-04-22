@@ -1,0 +1,34 @@
+1.	Start						
+2.	//INPUT						
+3.	declare and initialize variable month for number of days						
+4.	declare and initialize variable monthName for the name of the month						
+5.	declare and initialize variable for control						
+6.							
+7.	//INPUT + PROCESS						
+8.	DO-WHILE						
+9.	Prompt user to enter number of days						
+10.		IF [ month is less than zero]					
+11.			print invalid input				
+12.		ELSE IF [ month is less than 28 or month is greater than 31]					
+13.			print no month has exactly the specified number of days				
+14.		ELSE					
+15.			control is false				
+16.		END IF					
+17.	END DO						
+18.							
+19.		SWITH (month)					
+20.			CASE [ month is equal to 28 or month is equal to 29]				
+21.				assign month name = February			
+22.				break			
+23.			CASE [ month is equal to 30]				
+24.				assign month name = September April June November			
+25.				break			
+26.			DEFAULT				
+27.				assign month name = January March May July August October			
+28.				break			
+29.		END SWITCH					
+30.							
+31.	//OUTPUT						
+32.	print month name						
+33.							
+34.	end						
